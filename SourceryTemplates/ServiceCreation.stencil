@@ -1,0 +1,15 @@
+import Foundation
+
+extension ServiceGenerator {
+    static func generateTypesDictionary() -> [String: [String]] {
+        var nodes = [String: [String]]()
+        {% for type in types.implementing.Service %}
+        nodes[String(describing: {{ type.name }}.self)] = [String]()
+            {% for variable in type.storedVariables where variable.type.implements.Service %}
+        nodes[String(describing: {{ type.name }}.self)] = nodes[String(describing: {{ type.name }}.self)]! + [String(describing: {{ variable.type.name }}.self)]
+            {% endfor %}
+        {% endfor %}
+
+        return nodes
+    }
+}
