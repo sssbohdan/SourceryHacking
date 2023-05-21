@@ -10,6 +10,8 @@ import Foundation
 final class UniversityService: NSObject, Service {
     static let identifier = "UniversityService"
 
-    var authTokenService: AuthTokenService!
-    var userService: UserService!
+    @DependancyWrapper
+    var authTokenService: AuthTokenService
+    @DependancyWrapper
+    var userService: UserService
 }

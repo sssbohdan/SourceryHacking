@@ -10,5 +10,6 @@ import Foundation
 final class AuthTokenService: NSObject, Service {
     static let identifier = "AuthTokenService"
 
-    var encryptionService: EncryptionService!
+    @DependancyWrapper
+    var encryptionService: EncryptionService
 }

@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        let _ = ServiceGenerator.setup(object: UniversityService())
+//        let _ = ServiceGenerator.setup(object: UniversityService())
+        print(ServiceGenerator.allServices)
+        let a = UserService()
         return true
     }
 

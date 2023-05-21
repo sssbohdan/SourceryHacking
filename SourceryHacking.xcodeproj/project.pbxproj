@@ -20,6 +20,7 @@
 		8D8548A92A12A6D400C46374 /* AuthTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8548A82A12A6D400C46374 /* AuthTokenService.swift */; };
 		8DB3E1972A141C4200BB759B /* UniversityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3E1962A141C4200BB759B /* UniversityService.swift */; };
 		8DB3E1992A141C4E00BB759B /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3E1982A141C4E00BB759B /* EncryptionService.swift */; };
+		8DC1FB6B2A1AA20E0044D959 /* DependancyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FB6A2A1AA20E0044D959 /* DependancyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		8D8548A82A12A6D400C46374 /* AuthTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenService.swift; sourceTree = "<group>"; };
 		8DB3E1962A141C4200BB759B /* UniversityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityService.swift; sourceTree = "<group>"; };
 		8DB3E1982A141C4E00BB759B /* EncryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		8DC1FB692A1A91EF0044D959 /* SourceryTemplates */ = {isa = PBXFileReference; lastKnownFileType = text; path = SourceryTemplates; sourceTree = SOURCE_ROOT; };
+		8DC1FB6A2A1AA20E0044D959 /* DependancyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependancyWrapper.swift; sourceTree = "<group>"; };
 		98D910ED9892D20F94A0F892 /* Pods-SourceryHacking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourceryHacking.debug.xcconfig"; path = "Target Support Files/Pods-SourceryHacking/Pods-SourceryHacking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +86,7 @@
 		8D85488E2A129F8600C46374 /* SourceryHacking */ = {
 			isa = PBXGroup;
 			children = (
+				8DC1FB692A1A91EF0044D959 /* SourceryTemplates */,
 				8D1333802A1384150074DD4E /* Generated */,
 				8D8548A32A129FAE00C46374 /* Services */,
 				8D85488F2A129F8600C46374 /* AppDelegate.swift */,
@@ -99,6 +103,7 @@
 		8D8548A32A129FAE00C46374 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8DC1FB6A2A1AA20E0044D959 /* DependancyWrapper.swift */,
 				8D8548A42A12A6A300C46374 /* Service.swift */,
 				8D8548A62A12A6AA00C46374 /* UserService.swift */,
 				8D8548A82A12A6D400C46374 /* AuthTokenService.swift */,
@@ -243,6 +248,7 @@
 			files = (
 				8D8548942A129F8600C46374 /* ViewController.swift in Sources */,
 				8D8548A72A12A6AA00C46374 /* UserService.swift in Sources */,
+				8DC1FB6B2A1AA20E0044D959 /* DependancyWrapper.swift in Sources */,
 				8DB3E1992A141C4E00BB759B /* EncryptionService.swift in Sources */,
 				8D8548A52A12A6A300C46374 /* Service.swift in Sources */,
 				8D8548A92A12A6D400C46374 /* AuthTokenService.swift in Sources */,
